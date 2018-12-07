@@ -13,6 +13,9 @@ dd if=Me_again_lol.jpg of=secondpic skip=17334 bs=1
 ```   
 ![](https://github.com/dmanasa6/CTF-Challenges/blob/master/Images/Challenge1/binwalk_dd_1.png)  
 
+The image extracted is :  
+![](https://github.com/dmanasa6/CTF-Challenges/blob/master/Images/Challenge1/secondpic.jpg)
+
 After looking into the hexdump of both images, we observe a string "FLE" in the beginning of second image's data.  
 "FLE" is nothing but the reverse of ELF format, Executable and Linked Format.  
 ![](https://github.com/dmanasa6/CTF-Challenges/blob/master/Images/Challenge1/FLE_string.png)  
