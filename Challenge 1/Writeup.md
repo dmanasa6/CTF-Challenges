@@ -1,6 +1,6 @@
 ### Challenge 1 
 
-Download the challenge from Challenges file in this repo.  
+Download the challenge fom this repo.  
 ![](https://github.com/dmanasa6/CTF-Challenges/blob/master/Images/Challenge1/Me_again_lol%20.jpg)  
 The image in the challenge can be examined by various forensic tools like `binwalk`,`strings`,`exiftool`,`xxd`,`hexdump` etc.
 By using binwalk tool, it was clear that the image had two JPEG file in it.  
